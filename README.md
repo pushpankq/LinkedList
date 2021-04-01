@@ -5,6 +5,8 @@ A LinkedList is a collection of nodes, each node containing data, and pointers t
 ### How do nodes connect?
 Nodes connect via pointers to other nodes. Here is a diagram of a singly linked list showing each node connected via a pointer to a node object.
 
+![1*NogQw64qXZ0xhNqSUgn_oA](https://user-images.githubusercontent.com/14274827/113348054-bdc05800-9353-11eb-840b-d734bbd603d9.png)
+
 Singly Linked List with Pointers to the Next Node in a LinkedList
 However, we will be creating a Doubly LinkedList whos nodes contain not only a next node pointer but also a previous node pointer. This diagram illustrates what a doubly linked list would look like.
 
