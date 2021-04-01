@@ -7,10 +7,10 @@ Nodes connect via pointers to other nodes. Here is a diagram of a singly linked 
 
 ![1*NogQw64qXZ0xhNqSUgn_oA](https://user-images.githubusercontent.com/14274827/113348054-bdc05800-9353-11eb-840b-d734bbd603d9.png)
 
-Singly Linked List with Pointers to the Next Node in a LinkedList
 However, we will be creating a Doubly LinkedList whos nodes contain not only a next node pointer but also a previous node pointer. This diagram illustrates what a doubly linked list would look like.
 
-Doubly Linked List with Pointers to the Next Node and Previous Node in a LinkedList
+![1*bOdTYTA-VLpSVS2PvCXaRQ](https://user-images.githubusercontent.com/14274827/113348198-ef392380-9353-11eb-84e4-3c3d43d57ff7.png)
+
 
 ### The Head and The Tail
 The first and last nodes are referred to as the head and the tail, respectively.
