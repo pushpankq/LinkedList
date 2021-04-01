@@ -1,6 +1,20 @@
 # LinkedList
 
 A LinkedList is a collection of nodes, each node containing data, and pointers to the previous and next node in the collection. This differs from say, an array, in that a LinkedList’s data is not ordered by a node’s physical placement in memory but instead which other nodes it is connected to.
+How do nodes connect?
+Nodes connect via pointers to other nodes. Here is a diagram of a singly linked list showing each node connected via a pointer to a node object.
+
+Singly Linked List with Pointers to the Next Node in a LinkedList
+However, we will be creating a Doubly LinkedList whos nodes contain not only a next node pointer but also a previous node pointer. This diagram illustrates what a doubly linked list would look like.
+
+Doubly Linked List with Pointers to the Next Node and Previous Node in a LinkedList
+The Head and The Tail
+The first and last nodes are referred to as the head and the tail, respectively.
+
+-Linked List Diagram illustrating the head and tail nodes with nil pointers
+The Head’s previous node pointer is nil because no node comes before it.
+The Tail’s next node pointer is nil because no node comes after it.
+
 ```swift
 
 import UIKit
