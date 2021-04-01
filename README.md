@@ -1,5 +1,6 @@
 # LinkedList
 
+A LinkedList is a collection of nodes, each node containing data, and pointers to the previous and next node in the collection. This differs from say, an array, in that a LinkedList’s data is not ordered by a node’s physical placement in memory but instead which other nodes it is connected to.
 ```swift
 
 import UIKit
