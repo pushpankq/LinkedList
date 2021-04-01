@@ -79,7 +79,7 @@ class LinkedList<T> {
         
     }
     
-    // get node from slected index
+    // get node from selected index
     public func node(atIndex index: Int) -> Node<T> {
         if index == 0 {
             return head!
