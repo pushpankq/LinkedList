@@ -115,7 +115,7 @@ class LinkedList<T> {
         }
     }
     
-    // insert node at give index
+    // insert node at given index
     func insert(at index: Int, value: T) {
         let newNode = Node(value: value)
         
@@ -133,7 +133,7 @@ class LinkedList<T> {
         }
     }
     
-    // remove give node
+    // remove given node
     public func remove(node: Node<T>) -> T {
         
         let previousNode = node.previous
