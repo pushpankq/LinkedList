@@ -17,7 +17,6 @@ The first and last nodes are referred to as the head and the tail, respectively.
 
 ![1*7NocQuitDciVu0gfSO6OBg](https://user-images.githubusercontent.com/14274827/113348369-20b1ef00-9354-11eb-83fd-dc8540724d3d.png)
 
--Linked List Diagram illustrating the head and tail nodes with nil pointers
 The Head’s previous node pointer is nil because no node comes before it.
 The Tail’s next node pointer is nil because no node comes after it.
 
