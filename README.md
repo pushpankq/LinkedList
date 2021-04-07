@@ -171,6 +171,21 @@ class LinkedList<T> {
         
         return slowPointer
     }
+    
+    // Reverse Linked List (Iterative Method )
+     public func reverseUsingIteration() {
+        var prev: Node<T>?
+        var next: Node<T>?
+        var current = head
+        
+        while let unwrappedCurrent = current {
+            next = unwrappedCurrent.next
+            unwrappedCurrent.next = prev
+            prev = unwrappedCurrent
+            current = next
+        }
+        head = prev
+    }
 }
 
 
